@@ -16,6 +16,14 @@ Flight::route('/about', function () {
     Flight::render('about.php');
 });
 
+Flight::route('/relaciones', function () {
+    Flight::render('relaciones.php');
+});
+
+Flight::route('/eventos-deportivos', function () {
+    Flight::render('eventosDeportivos.php');
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
