@@ -5,7 +5,7 @@ require 'flight/Flight.php';
 # Debug errors
 Flight::set('flight.log_errors', true);
 # Root route
-define('__ROOT__', "http://localhost/garcias/");
+define('__ROOT__', "http://localhost/Trabajo/Freelancer/Samuel/garcias-ent/");
 
 
 Flight::route('/', function () {
@@ -22,6 +22,22 @@ Flight::route('/relaciones', function () {
 
 Flight::route('/eventos-deportivos', function () {
     Flight::render('eventosDeportivos.php');
+});
+
+Flight::route('/speakers', function () {
+    Flight::render('speakers.php');
+});
+
+Flight::route('/eventos', function () {
+    Flight::render('eventos.php');
+});
+
+Flight::route('/liga', function () {
+    Flight::render('liga.php');
+});
+
+Flight::route('/contacto', function () {
+    Flight::render('contacto.php');
 });
 
 #404
