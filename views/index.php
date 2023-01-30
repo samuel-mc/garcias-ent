@@ -31,7 +31,7 @@
             </p>
         </div>
     </section>
-    <section class="max-w-5xl mx-auto my-10">
+    <section class="max-w-5xl mx-auto my-10" id="servicios">
         <h2 class="text-white text-4xl font-semibold text-center mb-5">Nuestros servicios</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
             <div class="rounded bg-blue__md p-6 text-white">
@@ -41,9 +41,9 @@
                     marcas y personalidades del ámbito deportivo.
                 </p>
                 <footer class="text-center">
-                    <button class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
+                    <a href="<?php echo __ROOT__; ?>/relaciones"class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
                         Ver más <i class="fas fa-arrow-right ml-2"></i>
-                    </button>
+                    </a>
                 </footer>
             </div>
             <div class="rounded bg-blue__md p-6 text-white">
@@ -53,9 +53,9 @@
                     fomentamos la actividad física y el deporte en México.
                 </p>
                 <footer class="text-center">
-                    <button class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
+                    <a href="<?php echo __ROOT__; ?>/eventos-deportivos" class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
                         Ver más <i class="fas fa-arrow-right ml-2"></i>
-                    </button>
+                    </a>
                 </footer>
             </div>
             <div class="rounded bg-blue__md p-6 text-white flex flex-col justify-between">
@@ -66,14 +66,14 @@
                     </p>
                 </div>
                 <footer class="text-center">
-                    <button class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
+                    <a href="<?php echo __ROOT__; ?>/speakers" class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
                         Ver más <i class="fas fa-arrow-right ml-2"></i>
-                    </button>
+                    </a>
                 </footer>
             </div>
         </div>
     </section>
-    <section class="max-w-6xl md:mx-auto border border-yellow__text grid grid-cols-1 md:grid-cols-3 rounded-2xl py-16 px-4 my-10 md:my-40 mx-4">
+    <section id="torneosYLigas" class="max-w-6xl md:mx-auto border border-yellow__text grid grid-cols-1 md:grid-cols-3 rounded-2xl py-16 px-4 my-10 md:my-40 mx-4">
         <div class="relative md:col-span-1">
             <img src="<?php echo __ROOT__; ?>/public/img/homeConoce.png" alt="jugador de football" class="md:absolute md:bottom-1/2 md:translate-y-1/2 mx-auto max-w-xs w-full">
         </div>
@@ -82,9 +82,11 @@
                     para
                     abogados.</span>
             </h2>
-            <button class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
-                Ver más <i class="fas fa-arrow-right ml-2"></i>
-            </button>
+            <div class="py-8">
+                <a href="<?php echo __ROOT__; ?>/liga" class="bg-transparent mt-6 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
+                    Ver más <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
         </div>
     </section>
     <section class="max-w-6xl mx-auto p-4">
@@ -107,10 +109,10 @@
                 <h5 class="bg-yellow__text text-md w-fit rounded py-1 px-4 mx-auto">Julio 2023</h5>
             </div>
         </div>
-        <div class="text-center">
-            <button class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
+        <div class="text-center py-6">
+            <a href="<?php echo __ROOT__; ?>/eventos" class="bg-transparent mt-4 hover:bg-white text-white hover:text-blue__md border transition-all duration-500 md:text-xl font-semibold h-fit py-3 px-6 rounded-lg">
                 Ver más <i class="fas fa-arrow-right ml-2"></i>
-            </button>
+            </a>
         </div>
     </section>
 
